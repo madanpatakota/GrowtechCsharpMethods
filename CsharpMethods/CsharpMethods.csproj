@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CsharpMethods.Methods_Inputs</StartupObject>
+    <StartupObject>WithoutAsyncAwaitNamespace.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,10 @@
   <ItemGroup>
     <Compile Include="1.Method_returntypes.cs" />
     <Compile Include="2.Methods_inputs.cs" />
+    <Compile Include="3.Tasks\1.Sequential_Workitems_Developer.cs" />
+    <Compile Include="3.Tasks\2.Parller_WorkItems_Developer.cs" />
+    <Compile Include="3.Tasks\3.With_Async_Await.cs" />
+    <Compile Include="4.Async-Await\1.Without_Async_Await.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
